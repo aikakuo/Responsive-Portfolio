@@ -38,3 +38,4 @@ Create the following files files: `index.html`, `portfolio.html` and `contact.ht
 
 * Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
 
+readme.img/large.png
