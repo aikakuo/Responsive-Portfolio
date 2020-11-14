@@ -1,21 +1,61 @@
-html, body {
-    height: 100%;
-    margin: 0;
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: royalblue;
+    background-color: darkgrey;
+
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:darkgrey;
-    color: darkgrey;
-    text-align: center;
- }
+.img-fluid {
+    margin-bottom: 20px;
+}
 
- body {
-     background-color: darkgrey;
- }
+/* contact */
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+  font-weight: normal;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
  
+ input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: orange;
+    border: 0 none;
+  }
 
-      
+ #submit-button {
+    background-color: royalblue;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 0px;
+  }
+
+  submit-button:hover {
+      background-color: darksalmon;
+  }
